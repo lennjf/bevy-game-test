@@ -40,7 +40,7 @@ pub fn build_main_menu(commands: &mut Commands, asset_server: &Res<AssetServer>)
                     parent.spawn(TextBundle {
                         text: Text {
                             sections: vec![TextSection::new(
-                                "goldball Theft Auto - GTA之窝窝神曲",
+                                "Goldenball Theft Auto-GTA金球大盗之窝窝神曲",
                                 get_title_text_style(&asset_server),
                             )],
                             justify: JustifyText::Center,

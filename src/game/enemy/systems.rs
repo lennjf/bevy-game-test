@@ -31,6 +31,7 @@ pub fn spawn_enemies(
                 break direction;
             }
         };
+        println!(" direction {}, {}", dir1, dir2);
 
         commands.spawn((
             SpriteBundle {
